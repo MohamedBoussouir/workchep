@@ -1,12 +1,21 @@
-# Docker Break & Fix Workshop
+# Atelier Docker : Break & Fix
 
-مرحباً بك في ورشة عمل Docker التطبيقية. هدفنا هنا ليس تعلم الكتابة، بل تعلم التشخيص والربط.
+Bienvenue dans l'atelier Docker pratique. L'objectif ici n'est pas seulement d'écrire du code, mais d'apprendre le diagnostic et la mise en réseau.
 
-## التحديات
-- 1: `challenge-1-port`
-- 2: `challenge-2-dockerfile`
-- 3: `challenge-3-env`
-- 4: `challenge-4-network`
-- 5: `challenge-5-compose`
+## Structure
+Le dépôt contient 5 défis :
+- 1 : `challenge-1-port`
+- 2 : `challenge-2-dockerfile`
+- 3 : `challenge-3-env`
+- 4 : `challenge-4-network`
+- 5 : `challenge-5-compose`
 
-موفق!
+## Instructions
+1. Accédez au dossier de chaque défi.
+2. Lisez le fichier `README.md` du défi.
+3. Essayez de lancer l'application (cela échouera inévitablement).
+4. Diagnostiquez le problème (Logs, Network, etc.).
+5. Corrigez la configuration Docker.
+6. Vérifiez le succès via le navigateur.
+
+Bon courage !

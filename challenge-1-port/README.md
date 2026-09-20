@@ -1,9 +1,9 @@
-# Challenge 1: Port Mapping
+# Défi 1 : Mappage des ports (Port Mapping)
 
-## المتطلبات
-قم ببناء وتشغيل الحاوية بحيث يمكنك الوصول إلى التطبيق على المتصفح عبر الرابط `http://localhost:3000`.
+## Exigences
+Construisez et exécutez le conteneur afin de pouvoir accéder à l'application dans le navigateur via l'URL `http://localhost:3000`.
 
-## تلميح للمدرب (الحل)
-قم بتشغيل الحاوية باستخدام الأمر التالي لربط المنفذ بشكل صحيح:
+## Indice pour le formateur (Solution)
+Exécutez le conteneur en utilisant la commande suivante pour mapper correctement le port :
 `docker build -t ch1 .`
 `docker run -p 3000:3000 ch1`

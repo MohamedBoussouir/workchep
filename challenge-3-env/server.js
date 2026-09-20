@@ -4,9 +4,9 @@ const css = `<style>body{font-family:sans-serif;display:flex;justify-content:cen
 
 app.get('/', (req, res) => {
     if (process.env.FLAG === 'DOCKER_HERO_2026') {
-        res.send(`<!DOCTYPE html><html><head>${css}</head><body><div class="card success">🎉 أحسنت! تم حقن المتغير البيئي بنجاح!</div></body></html>`);
+        res.send(`<!DOCTYPE html><html><head>${css}</head><body><div class="card success">🎉 Bravo ! La variable d'environnement a été injectée avec succès !</div></body></html>`);
     } else {
-        res.status(403).send(`<!DOCTYPE html><html><head>${css}</head><body><div class="card error">الخادم يحتاج لمتغير بيئي 'FLAG' بالقيمة الصحيحة!</div></body></html>`);
+        res.status(403).send(`<!DOCTYPE html><html><head>${css}</head><body><div class="card error">Le serveur nécessite la variable d'environnement 'FLAG' avec la valeur correcte !</div></body></html>`);
     }
 });
 

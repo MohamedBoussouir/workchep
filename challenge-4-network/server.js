@@ -12,9 +12,9 @@ app.get('/', async (req, res) => {
         await client.connect();
         await client.query('SELECT NOW()');
         await client.end();
-        res.send(`<!DOCTYPE html><html><head>${css}</head><body><div class="card success">🎉 أحسنت!<br>تحدي 4 مكتمل: تم ربط الحاويتين بنجاح عبر شبكة دوكر الخاصة!</div></body></html>`);
+        res.send(`<!DOCTYPE html><html><head>${css}</head><body><div class="card success">🎉 Bravo !<br>Défi 4 complété : Les deux conteneurs ont été connectés avec succès via le réseau Docker personnel !</div></body></html>`);
     } catch (e) {
-        res.status(500).send(`<h1>فشل الاتصال: ${e.message}</h1>`);
+        res.status(500).send(`<h1>Échec de la connexion : ${e.message}</h1>`);
     }
 });
 app.listen(6000);

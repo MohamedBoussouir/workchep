@@ -3,7 +3,7 @@ const app = express();
 const css = `<style>body{font-family:sans-serif;display:flex;justify-content:center;align-items:center;height:100vh;margin:0;background-color:#f4f4f9;}.card{padding:2rem;border-radius:10px;box-shadow:0 4px 6px rgba(0,0,0,0.1);text-align:center;max-width:600px;font-size:1.5rem;}.success{background-color:#d1fae5;color:#065f46;border:1px solid #34d399;}</style>`;
 
 app.get('/', (req, res) => {
-    res.send(`<!DOCTYPE html><html><head>${css}</head><body><div class="card success">🎉 أحسنت! تم حل التمرين بنجاح.<br>تحدي 2 مكتمل: Dockerfile سليم وتم بناء وتشغيل الحاوية بنجاح!</div></body></html>`);
+    res.send(`<!DOCTYPE html><html><head>${css}</head><body><div class="card success">🎉 Bravo ! Exercice réussi avec succès.<br>Défi 2 complété : Le Dockerfile est correct et le conteneur a été construit et lancé avec succès !</div></body></html>`);
 });
 
 app.listen(4000, () => console.log('Server running on 4000'));

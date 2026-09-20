@@ -13,7 +13,7 @@ app.get('/', async (req, res) => {
         await client.query('CREATE TABLE IF NOT EXISTS items (data text)');
         const result = await client.query('SELECT * FROM items');
         await client.end();
-        res.send(`<!DOCTYPE html><html><head>${css}</head><body><div class="card success">🎉 أحسنت!<br>تحدي 5 مكتمل: تم إعداد Compose والتخزين المستمر بنجاح!<br>البيانات: ${JSON.stringify(result.rows)}<form method=POST action=/add><input name=item><button>Submit</button></form></div></body></html>`);
+        res.send(`<!DOCTYPE html><html><head>${css}</head><body><div class="card success">🎉 Bravo !<br>Défi 5 complété : Compose et persistance des données configurés avec succès !<br>Données : ${JSON.stringify(result.rows)}<form method=POST action=/add><input name=item><button>Ajouter</button></form></div></body></html>`);
     } catch(e) { res.status(500).send(e.toString()); }
 });
 

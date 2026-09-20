@@ -1,9 +1,10 @@
-# Challenge 5: Compose & Persistence
-أصلح ملف التكوين لتشغيل التطبيق والتحقق من بقاء البيانات.
+# Défi 5 : Compose et persistance des données
 
-## تلميح للمدرب (الحل)
-أضف `depends_on`, `environment`, و `volumes` لخدمة `db`.
-استخدم `volumes` تحت `services.db` لربط المجلد بـ `pgdata` ومعرف في المستوى العلوي.
+Corrigez le fichier de configuration pour exécuter l'application et vérifier la persistance des données.
+
+## Indice pour le formateur (Solution)
+Ajoutez `depends_on`, `environment` et `volumes` au service `db`.
+Utilisez `volumes` sous `services.db` pour lier le dossier à `pgdata` défini au niveau supérieur.
 ```yaml
 version: '3'
 services:
