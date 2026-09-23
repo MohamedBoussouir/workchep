@@ -1,0 +1,5 @@
+{
+  "mode": "PRODUCTION_VERIFIED",
+  "maintainer": "Docker Hero 2026",
+  "features": ["bind_mount", "live_config", "hot_reload"]
+}
