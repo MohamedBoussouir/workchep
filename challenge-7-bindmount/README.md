@@ -11,7 +11,7 @@ L'application démarre mais échoue avec une erreur `404` car elle attend un fic
 3. Mappez le port `8080:8080`.
 4. Ouvrez `http://localhost:8080` dans votre navigateur et vérifiez la bonne lecture de la configuration.
 
-## Indice pour le formateur (Solution)
+## Solution
 Commandes :
 ```bash
 docker build -t ch7 .
