@@ -11,7 +11,7 @@ Le fichier `Dockerfile` utilise plusieurs étapes (`builder` et `runner`), mais 
 3. Construisez l'image et lancez le conteneur sur le port `8000`.
 4. Accédez à l'application dans votre navigateur sur `http://localhost:8000`.
 
-## Indice pour le formateur (Solution)
+## Solution
 Dockerfile corrigé :
 ```dockerfile
 # Étape 1 : Construction / Build
