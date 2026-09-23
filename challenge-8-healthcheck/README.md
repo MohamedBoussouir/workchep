@@ -11,7 +11,7 @@ Dans le fichier `docker-compose.yml`, le service `app` dépend de `redis`. Cepen
 3. Lancez la stack avec `docker compose up -d --build`.
 4. Accédez à l'application via `http://localhost:9000` et rechargez la page pour vérifier l'incrémentation du compteur Redis.
 
-## Indice pour le formateur (Solution)
+## Solution
 Fichier `docker-compose.yml` corrigé :
 ```yaml
 version: '3.8'
